@@ -11,22 +11,22 @@ class MainPage extends StatelessWidget {
       {
         'nama': 'Abmi Sukma Edri',
         'nim': '12050120341',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/amiii.jpg',
       },
       {
         'nama': 'Ahmad Kurniawan',
         'nim': '12250111514',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/ahmed.jpg',
       },
       {
         'nama': 'Aufa Hajati',
         'nim': '12250120338',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/Aufa.jpg',
       },
       {
         'nama': 'Daffa Finanda',
         'nim': '12250111603',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/dapin.png',
       },
       {
         'nama': 'Daffa Ikhwan Nurfauzan',
@@ -36,12 +36,12 @@ class MainPage extends StatelessWidget {
       {
         'nama': 'Diki Afdol',
         'nim': '12250110383',
-        'foto': '',
+        'foto': 'assets/images/dudung.jpg',
       },
       {
         'nama': 'Dwi Jelita Adhliyah',
         'nim': '12250120331',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/jelita.jpg',
       },
       {
         'nama': 'Dwi Mahdini',
@@ -56,12 +56,12 @@ class MainPage extends StatelessWidget {
       {
         'nama': 'Fakhri',
         'nim': '12250111381',
-        'foto': 'assets/images/Fakhri.jpg',
+        'foto': 'assets/images/fakhri.jpg',
       },
       {
         'nama': 'Farras Lathief',
         'nim': '12250111328',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/farras.jpeg',
       },
       {
         'nama': 'Gilang Ramadhan Indra',
@@ -71,17 +71,17 @@ class MainPage extends StatelessWidget {
       {
         'nama': 'Hafidz Alhadid Rahman',
         'nim': '12250111794',
-        'foto': 'assets/images/Ahmed.jpg',
+        'foto': 'assets/images/hafidz.png',
       },
       {
         'nama': 'Haritsah Naufaldy',
         'nim': '12250110361',
-        'foto': 'assets/images/Aldy.jpeg',
+        'foto': 'assets/images/aldy.jpeg',
       },
       {
         'nama': 'M. Nabil Dawami',
         'nim': '12250111527',
-        'foto': 'assets/images/Nabil.jpg',
+        'foto': 'assets/images/nabil.jpg',
       },
       {
         'nama': 'Muh. Zaki Erbai Syas',
@@ -91,7 +91,7 @@ class MainPage extends StatelessWidget {
       {
         'nama': 'Muhammad Aditya Rinaldi',
         'nim': '12250111048',
-        'foto': 'assets/images/Dudung.jpg',
+        'foto': 'assets/images/adit.jpg',
       },
       {
         'nama': 'M. Dhimas Hadid Fachrezy',
@@ -111,27 +111,27 @@ class MainPage extends StatelessWidget {
       {
         'nama': 'Nurika Dwi Wahyuni',
         'nim': '12250120360',
-        'foto': 'assets/images/Dudung.jpg',
+        'foto': 'assets/images/nurika.jpg',
       },
       {
         'nama': 'Ogya Secio Nugroho',
         'nim': '12250111346',
-        'foto': 'assets/images/Dudung.jpg',
+        'foto': 'assets/images/ogi.png',
       },
       {
         'nama': 'Rahma Laksita',
         'nim': '12250124357',
-        'foto': 'assets/images/Dudung.jpg',
+        'foto': 'assets/images/rahma.jpg',
       },
       {
         'nama': 'Raka Sabri',
         'nim': '12250110342',
-        'foto': '',
+        'foto': 'assets/images/dudung.jpg',
       },
       {
         'nama': 'Surya Hidayatullah Firdaus',
         'nim': '12250111759',
-        'foto': 'assets/images/Dudung.jpg',
+        'foto': 'assets/images/srya.PNG',
       },
     ];
 
