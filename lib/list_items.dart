@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'detail_items.dart';
 
 class MyListPage extends StatelessWidget {
   final List<Map<String, dynamic>> items;
@@ -8,6 +9,7 @@ class MyListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green[100],
       appBar: AppBar(
         title: const Text(
           'List Penghuni Surga',
@@ -15,7 +17,7 @@ class MyListPage extends StatelessWidget {
             fontSize: 28,
             color: Colors.white,
             fontFamily: 'JosefinSans',
-            fontWeight: FontWeight.w700,
+            fontWeight: FontWeight.w900,
           ),
         ),
         centerTitle: true,
@@ -42,14 +44,25 @@ class MyListPage extends StatelessWidget {
                 subtitle: Text(
                   items[index]['nim'],
                   style: const TextStyle(
-                      fontSize: 18.0,
-                      fontFamily: 'JosefinSans',
-                      color: Colors.black,
-                      fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.italic),
+                    fontSize: 18.0,
+                    fontFamily: 'JosefinSans',
+                    color: Colors.black,
+                    fontWeight: FontWeight.w400,
+                  ),
                 ),
                 onTap: () {
-                  // Implementasi aksi saat item di-tap di sini
+                  // Implementasi aksi saat item di-tap
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailPage(
+                        nama: items[index]['nama'],
+                        nim: items[index]['nim'],
+                        foto: items[index]['foto'],
+                        tanggalLahir: items[index]['tanggal_lahir'],
+                      ),
+                    ),
+                  );
                 },
               ),
               const Divider(
