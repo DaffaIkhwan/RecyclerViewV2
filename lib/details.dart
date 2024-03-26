@@ -4,30 +4,31 @@ class DetailPage extends StatelessWidget {
   final String nama;
   final String nim;
   final String foto;
-  final String tanggalLahir;
+  final String alamat;
 
   const DetailPage(
       {super.key,
       required this.nama,
       required this.nim,
       required this.foto,
-      required this.tanggalLahir});
+      required this.alamat});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.orange[100],
       appBar: AppBar(
         title: const Text(
-          'Detail Penghuni Surga',
+          'Detail',
           style: TextStyle(
             fontSize: 28,
             color: Colors.white,
-            fontFamily: 'JosefinSans',
-            fontWeight: FontWeight.w900,
+            fontFamily: 'monospace',
+            fontWeight: FontWeight.w700,
           ),
         ),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 34, 139, 34),
+        backgroundColor: Colors.orange[400],
       ),
       body: Center(
         child: Column(
@@ -44,7 +45,7 @@ class DetailPage extends StatelessWidget {
               nama,
               style: const TextStyle(
                 fontSize: 32.0,
-                fontFamily: 'JosefinSans',
+                fontFamily: 'monospace',
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
               ),
@@ -53,36 +54,23 @@ class DetailPage extends StatelessWidget {
               nim,
               style: const TextStyle(
                 fontSize: 28.0,
-                fontFamily: 'JosefinSans',
+                fontFamily: 'monospace',
                 color: Colors.black,
                 fontWeight: FontWeight.w500,
               ),
             ),
             const SizedBox(height: 8),
             Text(
-              'Tanggal Lahir: $tanggalLahir',
+              'Alamat: $alamat',
               style: const TextStyle(
                 fontSize: 24.0,
-                fontFamily: 'JosefinSans',
+                fontFamily: 'monospace',
                 color: Colors.black,
                 fontWeight: FontWeight.w400,
               ),
             ),
             const SizedBox(
               height: 16,
-            ),
-            Container(
-              margin: const EdgeInsets.symmetric(horizontal: 32),
-              child: Text(
-                'Hai nama saya $nama, saya adalah seorang mahasiswa UIN Suska Riau, saya suka ngoding dan juga suka ngoding lorem ipsum dolor sit amet dan ini adalah kalimat penambah',
-                textAlign: TextAlign.justify,
-                style: const TextStyle(
-                  fontSize: 24.0,
-                  fontFamily: 'JosefinSans',
-                  color: Colors.black,
-                  fontWeight: FontWeight.w400,
-                ),
-              ),
             ),
           ],
         ),

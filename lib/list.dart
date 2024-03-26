@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'detail_items.dart';
+import 'details.dart';
 
 class MyListPage extends StatelessWidget {
   final List<Map<String, dynamic>> items;
@@ -9,19 +9,19 @@ class MyListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[100],
+      backgroundColor: Colors.orange[100],
       appBar: AppBar(
         title: const Text(
-          'List Penghuni Surga',
+          'Mahasiswa TIF A',
           style: TextStyle(
             fontSize: 28,
             color: Colors.white,
-            fontFamily: 'JosefinSans',
-            fontWeight: FontWeight.w900,
+            fontFamily: 'monospace',
+            fontWeight: FontWeight.w700,
           ),
         ),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 34, 139, 34),
+        backgroundColor: Colors.orange[400],
       ),
       body: ListView.builder(
         itemCount: items.length,
@@ -36,7 +36,7 @@ class MyListPage extends StatelessWidget {
                   items[index]['nama'],
                   style: const TextStyle(
                     fontSize: 24.0,
-                    fontFamily: 'JosefinSans',
+                    fontFamily: 'Monospace',
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
                   ),
@@ -45,7 +45,7 @@ class MyListPage extends StatelessWidget {
                   items[index]['nim'],
                   style: const TextStyle(
                     fontSize: 18.0,
-                    fontFamily: 'JosefinSans',
+                    fontFamily: 'Monospace',
                     color: Colors.black,
                     fontWeight: FontWeight.w400,
                   ),
@@ -59,7 +59,7 @@ class MyListPage extends StatelessWidget {
                         nama: items[index]['nama'],
                         nim: items[index]['nim'],
                         foto: items[index]['foto'],
-                        tanggalLahir: items[index]['tanggal_lahir'],
+                        alamat: items[index]['alamat'],
                       ),
                     ),
                   );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas2app/main_page.dart';
+import 'package:tugas2app/home.dart';
 
 void main() {
   MyApp app = const MyApp();
